@@ -1,0 +1,16 @@
+class Parent {
+    protected int money = 5000;
+}
+
+class Child extends Parent {
+    void show() {
+        System.out.println("Money: " + money);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Child c = new Child();
+        c.show();
+    }
+}
